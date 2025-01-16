@@ -102,3 +102,104 @@ nav ul li a {
 nav ul li a:hover {
     color: #0047ca;
 }
+
+.game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.game-info {
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.game-info h1 {
+    font-size: 2rem;
+}
+
+.game-info h3 {
+    font-size: 1.2rem;
+}
+
+.game-info p {
+    font-size: 1.2rem;
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#btn {
+    font-size: 1.5rem;
+    padding: 10px 100px;
+    background-color: #01268b;
+    border-radius: 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.input {
+    width: 40px;
+    border: none;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.5);
+    margin: 0 2px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 36px;
+    cursor: pointer;
+    pointer-events: all;
+}
+
+.input:focus {
+    border-bottom: 3px solid orange;
+    outline: none;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.message {
+    padding: 2px 50px;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.message-success {
+    background-color: #4CAF50;
+    display: none;
+}
+
+.message-error {
+    background-color: #f44336;
+    display: none;
+}
+
+.message p {
+    font-size: 1rem;
+    color: #fff;
+    text-align: center;
+}
+
+.heart {
+    display: none;
+}
