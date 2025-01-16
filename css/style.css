@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #c5ebde;
+}
+
+.main-container {
+    background: #7cb8c0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.877);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+.profile-image {
+    margin-bottom: 20px;
+}
+
+.profile-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-image img:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.877);
+
+}
+
+.profile-info {
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.profile-info:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.877);
+}
+
+.profile-info h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #000;
+}
+
+.profile-info p {
+    margin: 2px 0;
+    color: #161313;
+}
+
+.profile-info span {
+    color: #000000;
+}
+
+.about {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #161313;
+    border-radius: 20px;
+}
+
+.about:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.877);
+}
+
+.about p {
+    /* en fazla 4 satir olucak */
+    line-clamp: 4;
+    margin: 0;
+}
+
+nav {
+    background: #7cb8c0;
+    padding: 10px 0;
+    text-align: left;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #26a806;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #0047ca;
+}
